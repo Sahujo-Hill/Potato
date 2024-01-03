@@ -9,7 +9,7 @@ h1 {
     font-weight:bold;
     color:darkolivegreen;
     text-align:center;
-    padding-bottom:50px;
+    padding-bottom:10px;
 
 }
 
@@ -27,17 +27,19 @@ th {
 
 #news {
     color:saddlebrown;
+    margin-right:35px;
 
 }
 
 #about {
-    color:tan;
-
+    color: tan;
+    margin-left: 35px;
+    margin-right: 35px;
 }
 
 #contact {
-    color:darkkhaki;
-
+    color: darkkhaki;
+    margin-left: 35px;
 }
 
 img {
