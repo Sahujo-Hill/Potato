@@ -9,36 +9,34 @@ h1 {
     font-weight:bold;
     color:darkolivegreen;
     text-align:center;
+    padding-bottom:50px;
 
 }
 
 .header {
     font-size:72px;
-    text-align:center;
     margin-left:auto;
     margin-right:auto;
+    column-width:100px;
 
 }
 
 #news {
     color:saddlebrown;
-    text-align:left;
 
 }
 
 #about {
     color:tan;
-    text-align:center;
 
 }
 
 #contact {
     color:darkkhaki;
-    text-align:right;
 
 }
 
-.imgleft {
+img {
     width:150px;
 
 }
