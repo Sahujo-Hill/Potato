@@ -19,20 +19,23 @@ h1 {
 }
 
 #news {
-    color:saddlebrown;
-    margin:auto 10px auto;
+    color: saddlebrown;
+    margin: auto 10px auto;
+    text-align: center;
 
 }
 
 #about {
-    color:tan;
-    margin:auto 10px auto 10px;
+    color: tan;
+    margin: auto 10px auto 10px;
+    text-align: center;
 
 }
 
 #contact {
-    color:darkkhaki;
-    margin:auto auto auto 10px;
+    color: darkkhaki;
+    margin: auto auto auto 10px;
+    text-align: center;
 
 }
 
