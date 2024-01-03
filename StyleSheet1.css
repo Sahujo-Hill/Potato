@@ -1,6 +1,5 @@
 * {
     font-family:'Aktiv Grotesk';
-
 }
 
 h1 {
@@ -9,13 +8,19 @@ h1 {
     font-weight:bold;
     color:darkolivegreen;
     text-align:center;
-    padding-bottom:10px;
+    margin-bottom:10px;
 
 }
 
-th {
-    width: 100px;
+table {
+    width: 1000px;
+    table-layout:fixed;
+    
+}
 
+th, td {
+    padding:10px;
+    
 }
 
 .header {
@@ -27,19 +32,19 @@ th {
 
 #news {
     color:saddlebrown;
-    margin-right:35px;
-
 }
 
 #about {
     color: tan;
-    margin-left: 35px;
-    margin-right: 35px;
+    padding-left:auto;
+    
 }
 
 #contact {
     color: darkkhaki;
-    margin-left: 35px;
+    text-align:right;
+    padding-right:1px;
+
 }
 
 img {
