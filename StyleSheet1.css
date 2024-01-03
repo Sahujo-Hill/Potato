@@ -1,6 +1,42 @@
-h1 {
+* {
     font-family: 'Aktiv Grotesk';
-    font-size: 72px;
-    font-weight: bold;
-    color: darkolivegreen;
+
+}
+
+h1 {
+    
+    font-size:110px;
+    font-weight:bold;
+    color:darkolivegreen;
+    text-align:center;
+
+}
+
+.header {
+    font-size:72px;
+    text-align:center;
+
+}
+
+#news {
+    color:saddlebrown;
+    margin:auto 10px auto;
+
+}
+
+#about {
+    color:tan;
+    margin:auto 10px auto 10px;
+
+}
+
+#contact {
+    color:darkkhaki;
+    margin:auto auto auto 10px;
+
+}
+
+.imgleft {
+    width:300px;
+
 }
