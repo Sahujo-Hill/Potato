@@ -1,5 +1,5 @@
 * {
-    font-family: 'Aktiv Grotesk';
+    font-family:'Aktiv Grotesk';
 
 }
 
@@ -21,20 +21,20 @@ h1 {
 }
 
 #news {
-    color: saddlebrown;
-    margin: auto 10px auto;
+    color:saddlebrown;
+    text-align:left;
 
 }
 
 #about {
-    color: tan;
-    margin: auto 10px auto 10px;
+    color:tan;
+    text-align:center;
 
 }
 
 #contact {
-    color: darkkhaki;
-    margin: auto auto auto 10px;
+    color:darkkhaki;
+    text-align:right;
 
 }
 
