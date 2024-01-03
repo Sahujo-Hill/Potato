@@ -13,11 +13,15 @@ h1 {
 
 }
 
+th {
+    width: 100px;
+
+}
+
 .header {
     font-size:72px;
     margin-left:auto;
     margin-right:auto;
-    column-width:100px;
 
 }
 
@@ -37,6 +41,6 @@ h1 {
 }
 
 img {
-    width:150px;
+    width:280px;
 
 }
