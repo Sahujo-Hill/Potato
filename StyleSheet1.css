@@ -12,6 +12,7 @@ a {
 
 body {
     margin-top: 125px;
+    margin-bottom: 125;
 }
 
 h1 {
@@ -112,12 +113,29 @@ h5 {
 }
 
 h4 {
+    letter-spacing: 4;
+    font-style: italic;
+    color: #4d2d18;
+    margin-bottom: 1
 }
 
 .maintext {
-    margin: 25px 25 auto 525px;
+    margin: 10px 25 auto 525px;
     padding: 10 10;
-    border: 2px solid saddlebrown;
+    border: 2px solid #4d2d18;
     letter-spacing: 2.75;
     background-color: #102920;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.logo {
+    width: 50;
+    border: unset;
+    float: left;
+    margin: 5 25 15 25
 }
