@@ -1,22 +1,28 @@
 * {
-    font-family: Georgia;
-    background-color: khaki
+    font-family: Arial;
+    background-color: tan
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 h1 {
     font-family: Verdana;
     font-size: 110px;
     font-weight: bold;
-    color: darkolivegreen;
+    color: saddlebrown;
     text-align: center;
     margin-bottom: 10px;
     letter-spacing: 35px;
-    text-shadow: 0px 5px darkkhaki;
+    text-shadow: 0px 4px navajowhite;
 }
 
 table {
     width: 1000px;
     table-layout: fixed;
+    padding-bottom: 30px;
 }
 
 th, td {
@@ -27,15 +33,17 @@ th, td {
     font-size: 50px;
     margin-left: auto;
     margin-right: auto;
-    color: saddlebrown;
-    text-shadow: 0px 2px darkkhaki
+    color: peru;
+    text-shadow: 0px 2px moccasin
 }
 
 #news {
+    border-right: 2px dashed saddlebrown;
 }
 
 #about {
     padding-left: 1px;
+    border-right: 2px dashed saddlebrown;
 }
 
 #contact {
@@ -45,10 +53,36 @@ th, td {
 
 img {
     width: 450px;
-    border: 5px solid tan;
+    border: 10px outset peru;
     float: left;
     margin-right: 25px;
 }
 
 .aboutus {
+    margin: 25px 25px;
+}
+
+.updates {
+    width: 250px;
+    display: inline-block;
+    text-align: center;
+}
+
+h5 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1px;
+    margin-top: 5px;
+    font-size: 20;
+}
+
+.main {
+    display: inline-block;
+    width: 500px;
+    text-align: center;
+    margin-right: auto;
+    float: inline-end;
+}
+
+.mainhead {
 }
