@@ -22,8 +22,8 @@ h1 {
     color: #4d2d18;
     text-align: center;
     margin-bottom: 10px;
-    letter-spacing: 35px;
-    text-shadow: 0px 4px navajowhite;
+    letter-spacing: 10px;
+    text-shadow: -5px 6px black;
     width: 100%
 }
 
@@ -42,17 +42,18 @@ nav {
 }
 
 .header {
-    font-size: 50px;
+    font-size: 45px;
     color: 8a6240;
-    text-shadow: 0px 2px moccasin;
+    text-shadow: -3px 2px #4d2d18;
+    letter-spacing: 4
 }
 
 #news {
-    border-right: 2px dashed #8a6240;
+    border-right: 2px dashed #4d2d18;
 }
 
 #about {
-    border-right: 2px dashed #8a6240;
+    border-right: 2px dashed #4d2d18;
 }
 
 #contact {
@@ -61,15 +62,17 @@ nav {
 
 img {
     width: 450px;
-    border: 10px outset #8a6240;
+    border: 10px ridge #8a6240;
     float: left;
     margin-right: 25px;
     margin-left: 25px;
+    box-shadow: -5px 5px black;
 }
 
 .aboutus {
     margin: auto 25px 25px 525px;
     text-align: center;
+    box-shadow: -7px 7px black;
 }
 
 .abtext {
@@ -116,7 +119,8 @@ h4 {
     letter-spacing: 4;
     font-style: italic;
     color: #4d2d18;
-    margin-bottom: 1
+    margin-bottom: 1;
+    text-shadow: 0px px black;
 }
 
 .maintext {
@@ -125,6 +129,7 @@ h4 {
     border: 2px solid #4d2d18;
     letter-spacing: 2.75;
     background-color: #102920;
+    box-shadow: -7px 7px black;
 }
 
 footer {
@@ -137,5 +142,15 @@ footer {
     width: 50;
     border: unset;
     float: left;
-    margin: 5 25 15 25
+    margin: 5 25 15 25;
+    box-shadow: unset
+}
+
+.continfo {
+    float: right;
+    margin: 25 40;
+    letter-spacing: 2;
+    font-style: oblique;
+    font-weight: bold;
+    color: 4d2d18
 }
